@@ -9,7 +9,7 @@
 
 int is_palindrome(listint_t **head)
 {
-	int *a;
+	int a[1000];
 	int i, j, start, end;
 /* store content of each node as we go down and store them in a normal list */
 	for (i = 0; (*head)->next != NULL; i++)
